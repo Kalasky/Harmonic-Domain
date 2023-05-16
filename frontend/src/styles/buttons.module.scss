@@ -1,0 +1,35 @@
+.btnHover {
+  width: auto;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 10px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btnHover:hover {
+  background-position: 100% 0;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btnHover:focus {
+  outline: none;
+}
+
+.btnHover.color1 {
+  background-image: linear-gradient(to right, #7845ee, #ba6ce7, #b530dd, #a02be4);
+  box-shadow: 0 4px 15px 0 rgba(167, 90, 240, 0.692);
+}
+
+.btnHover.color8 {
+  background-image: linear-gradient(to right, #29323c, #33383d, #2b5876, #4e4376);
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}

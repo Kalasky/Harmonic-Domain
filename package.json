@@ -1,0 +1,22 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "Harmonic Domain",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm run dev\" ",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kalasky/Harmonic-Domain"
+  },
+  "author": "kalasky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kalasky/documentation/issues"
+  },
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
